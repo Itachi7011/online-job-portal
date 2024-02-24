@@ -1,0 +1,511 @@
+body {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.LOGOtextdecoration {
+  text-decoration: none;
+
+}
+
+.textdecoration {
+  text-decoration: none;
+  padding: 0.3rem;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  border: 4px solid red;
+
+}
+
+button .a {
+  text-decoration: none;
+}
+
+/* .loginbtn {
+  text-decoration: none;
+
+
+} */
+
+.logo {
+  background-color: black;
+  color: white;
+  padding-left: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.LOGOtextdecoration {
+  color: white;
+}
+
+.LOGOtextdecoration:hover {
+  color: blue;
+  background: white;
+  box-shadow: 0 0 10px #219653, 0 0 40px #219653, 0 0 80px white;
+  transition-delay: 1s;
+}
+
+
+
+a .logospan {
+  position: absolute;
+  display: block;
+}
+
+a .logospan:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, white);
+}
+
+a:hover .logospan:nth-child(1) {
+  left: 100%;
+  transition: 0.5s;
+
+}
+
+a .logospan:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, white);
+}
+
+a:hover .logospan:nth-child(3) {
+  right: 100%;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+
+}
+
+a .logospan:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, white);
+}
+
+a:hover .logospan:nth-child(2) {
+  top: 100%;
+  transition: 0.5s;
+  transition-delay: 0.25s;
+}
+
+a .logospan:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, white);
+}
+
+a:hover .logospan:nth-child(4) {
+  bottom: 100%;
+  transition: 0.5s;
+  transition-delay: 0.75s;
+}
+
+.logoutbtn {
+  float: right;
+  position: relative;
+  top: 0px;
+  right: 1rem;
+  color: white;
+  background-color: rgb(84, 84, 223);
+}
+
+.textdecoration:hover {
+
+
+  cursor: pointer;
+
+}
+
+.logoutbtn:hover .textdecoration:hover {
+  transition: 0.5s;
+  transition-delay: 0s;
+  cursor: pointer;
+}
+
+.searching .loginbtn {
+  text-align: center;
+  font-size: x-large;
+
+}
+
+.searching {
+  transition-delay: 1s;
+  text-align: center;
+}
+
+.loginbtn {
+  text-align: center;
+  font-size: x-large;
+
+}
+
+.searchinput {
+  margin: 2rem 0.2rem 0.5rem 0.5;
+  width: 25rem;
+  height: 3rem;
+}
+
+.jobSearchResultProfileHr {
+  background: #6351ce;
+  color: white;
+  padding: 0.2em;
+  border-radius: 5px
+}
+
+.searchtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(to right, red, blue);
+  text-align: center;
+
+  padding: 0.8rem;
+  margin: 1rem 8rem 1rem 8rem;
+  border-radius: 20px;
+}
+
+.searchtext1 {
+  color: white;
+
+  background-image: linear-gradient(to right, red, blue);
+
+  padding: 0.6rem;
+  margin: 1rem 11rem 1rem 11rem;
+  border-radius: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+/* .card {
+  margin: 2rem auto;
+  padding: 1rem; */
+
+/* width: 40%; */
+/* font: bolder;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0 0 5px 5px  black;
+}
+
+.card-body {
+  text-align: left; */
+/* width: 100%; */
+/* border: 2px solid black;
+  background-image: linear-gradient(to right, red, blue);
+  color: white;
+
+} */
+
+.loginCard {
+  margin: 2rem auto;
+  padding: 3rem;
+
+
+  width: 65% !important;
+  font: bolder;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0 0 5px 5px black;
+}
+
+.loginLink {
+  color: white;
+  background-image: linear-gradient(to right, red, blue);
+  border-color: yellow;
+  margin-bottom: 0 !important;
+}
+
+.loginLink:hover {
+  color: white;
+  box-shadow: 0 0 5px 5px black;
+
+}
+
+.profilePageHr {
+  width: 43.5vw;
+  background-color: red;
+  height: 10vh;
+}
+
+.jobSearchCard {
+  margin: 2rem auto;
+  padding: 1rem;
+
+  /* width: 40%; */
+  font: bolder;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0 0 5px 5px black;
+}
+
+
+
+.jobSearchCard-body {
+  text-align: left;
+  /* width: 100%; */
+  border: 2px solid black;
+  background-image: linear-gradient(to right, red, blue);
+  color: white;
+
+}
+
+.rightcard {
+  float: right;
+
+}
+
+.centercard {
+  text-align: center;
+}
+
+.card-title {
+  font-size: xx-large;
+  font: bold;
+}
+
+.card-subtitle {
+  font-size: xx-larger;
+  font: bolder;
+}
+
+.registration {
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+
+
+.floatbtn {
+  float: right;
+}
+
+
+.registerlinebreak {
+  margin-top: 3rem;
+}
+
+.regis {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* nav {
+  position: sticky;
+  top: 2px;
+} */
+
+
+/*@media (max-width:700px) {
+  .container {
+    width: 10rem;
+    height: auto;
+   
+  }
+} */
+
+/* Profile Page CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+.breadcrumb {
+  background-color: #c5cee4;
+
+}
+
+.breadcrumb a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.d-flex a {
+  text-decoration: none;
+  color: #686868;
+}
+
+
+
+.fab.fa-twitter {
+  color: #8ab7f1;
+}
+
+.fab.fa-instagram {
+  color: #E1306C;
+}
+
+.fab.fa-facebook-f {
+  color: #5999ec;
+}
+
+/* extra EmpProfile CSS */
+.font-big {
+  font-size: 200%;
+}
+
+.font-medium {
+  font-size: 120%;
+
+}
+
+.jobSearchResultProfile2 {
+  background: #6351ce;
+  text-align: center;
+
+  font-size: 80%;
+  color: white;
+  padding: 0.5rem 4em;
+  border-radius: 5px;
+
+}
+
+.font-medium:after {
+  content: "\a";
+  white-space: pre;
+}
+
+.feedbackmargin {
+  margin: 0.5rem 5rem 2rem 5rem;
+  padding: 2rem;
+
+}
+
+.feedbackForm {
+  margin: 0 0 0 0;
+  margin: 0rem 0rem 5rem 0rem;
+}
+
+.feedbackDivH1h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  color: white;
+  border-radius: 2rem;
+  margin: 0 10% 0 10%;
+  padding: 1rem;
+}
+
+.editprofilecss:hover {
+  color: white;
+  background-color: #eb5325;
+}
+
+.editprofilecss {
+  color: white;
+  background-color: #2f42aa;
+}
+
+.careerTipsDiv {
+  margin-bottom: 2rem;
+}
+
+
+.homeMainDiv {
+  
+  text-align: center;
+  margin: 0px;
+  
+
+}
+
+.homeMainH2 {
+  margin: 0 35rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: white;
+  background: rgb(46, 214, 46);
+  margin-bottom: 2rem;
+  
+}
+.homeMainH4 {
+  margin: 0 35rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: white;
+  background: rgb(229, 176, 54);
+}
+
+
+
+.careerTips2ndDiv {
+  margin: 1rem 15rem 1rem 15rem;
+}
+
+.careerTips2ndDiv h3 {
+  text-align: center;
+  padding: 0.5rem;
+  margin: 1rem 15rem 1rem 15rem;
+  border-radius: 1rem;
+  font: boder;
+  background-color: #6351ce;
+  color: white;
+}
+
+.careerTips2ndDiv h5 {
+
+  padding: 0.5rem;
+}
+
+.careerTipsHeading {
+  text-align: center;
+  background-image: linear-gradient(to right, red, blue);
+  color: white;
+  margin: 2rem 15rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
