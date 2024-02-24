@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
-// const databaseAddr = process.env.databaseAddr;
+ const databaseAddr = process.env.databaseAddr;
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/OnlineJobPoral",
+mongoose.connect(databaseAddr,
     {
         useNewUrlParser:true,
         useUnifiedTopology:true
