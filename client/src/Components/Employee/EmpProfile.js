@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 
 
 export default function EmpProfile() {
-
       
     const [user, setUser] = useState("")
     const callProfilePage = async () => {
