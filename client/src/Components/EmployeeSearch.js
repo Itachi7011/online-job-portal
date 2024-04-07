@@ -25,7 +25,6 @@ function EmployeeSearch() {
         }).catch((err) => { console.log(err) })
     }, [])
 
-
     let inputHandler = (e) => {
 
         name = e.target.name;
