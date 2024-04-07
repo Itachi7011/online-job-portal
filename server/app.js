@@ -5,7 +5,6 @@ const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
 app.use(express.static(__dirname, +"../client/public/"));
 
-
 const dotenv = require("dotenv");
 dotenv.config();
 
