@@ -13,7 +13,6 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-
 const port = process.env.PORT;
 
 require("./database/connection");
