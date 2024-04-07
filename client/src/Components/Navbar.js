@@ -4,7 +4,6 @@ import { UserContext } from "../App";
 
 function Navbar() {
 
-
     const [user, setUser] = useState("")
     const callNavBarPage = async () => {
         try {
