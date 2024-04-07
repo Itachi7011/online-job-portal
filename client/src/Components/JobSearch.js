@@ -11,8 +11,6 @@ export default function JobSearch() {
 
     const navigate = useNavigate();
 
-
-
     let name, value; // Declaration only, will be used in inputHandler function later.
 
     useEffect(() => {
