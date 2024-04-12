@@ -3,7 +3,6 @@ const companydb = require("../database/schema/company");
 require("../app");
 
 
-
 const searchResultProfile = async (req, res, next) => {
     try {
         const id = req.body.id;
