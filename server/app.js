@@ -7,7 +7,7 @@ app.use(express.static(__dirname, +"../client/public/"));
 
 const dotenv = require("dotenv");
 dotenv.config();
-
+ 
 const cookieParser = require("cookie-parser")
 app.use(cookieParser());
 app.use(express.json());
